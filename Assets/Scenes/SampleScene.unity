@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 127975579}
   - component: {fileID: 127975578}
   - component: {fileID: 127975577}
+  - component: {fileID: 127975581}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -281,6 +282,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &127975581
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127975576}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 21e2d936cbfc5439b83e8bf863ec98e6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &145144978
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,6 +1163,7 @@ GameObject:
   - component: {fileID: 711470970}
   - component: {fileID: 711470972}
   - component: {fileID: 711470971}
+  - component: {fileID: 711470973}
   m_Layer: 5
   m_Name: Cartello
   m_TagString: Untagged
@@ -1164,7 +1187,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 10}
+  m_AnchoredPosition: {x: 0, y: 244}
   m_SizeDelta: {x: 480, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &711470971
@@ -1205,6 +1228,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 711470969}
   m_CullTransparentMesh: 1
+--- !u!95 &711470973
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 711470969}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8ce3e0e0bade84bf59544234cced8099, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &792519682
 GameObject:
   m_ObjectHideFlags: 0
@@ -1369,9 +1413,9 @@ RectTransform:
   - {fileID: 1214725299}
   m_Father: {fileID: 416214242}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.40847778, y: -0.40847778}
+  m_AnchorMin: {x: 0.5125, y: 0.3998889}
+  m_AnchorMax: {x: 0.5125, y: 0.3998889}
+  m_AnchoredPosition: {x: -6.408478, y: 264}
   m_SizeDelta: {x: 480, y: 270}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &845748356
@@ -2092,6 +2136,7 @@ GameObject:
   - component: {fileID: 1519020889}
   - component: {fileID: 1519020891}
   - component: {fileID: 1519020890}
+  - component: {fileID: 1519020892}
   m_Layer: 5
   m_Name: SiparioMobile
   m_TagString: Untagged
@@ -2156,6 +2201,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1519020888}
   m_CullTransparentMesh: 1
+--- !u!95 &1519020892
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519020888}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 08ac466b7d4624ab5b9e93697367deaf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 2
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1571114298
 GameObject:
   m_ObjectHideFlags: 0
